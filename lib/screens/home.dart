@@ -62,6 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
               decoration: InputDecoration(
                   labelText: 'Search', suffixIcon: Icon(Icons.search)),
             ),
+            SizedBox(height: 20,),
             Expanded(
               child: ListView.builder(
                   itemCount: _foundProduct.length,
