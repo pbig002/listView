@@ -129,42 +129,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: Container(
-        color: Colors.white,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
-          child: GNav(
-            backgroundColor: Colors.white,
-            color: Colors.blue,
-            gap: 8,
-            tabBackgroundColor: Colors.blue.shade50,
-            padding: EdgeInsets.all(20),
-            tabs: [
-              GButton(
-                icon: Icons.home,
-                iconColor: Color.fromARGB(255, 8, 156, 167),
-                text: 'home',
-                // textStyle: TextStyle(color: Colors.black),
-              ),
-              GButton(
-                icon: Icons.favorite_border,
-                iconColor: Color.fromARGB(255, 8, 156, 167),
-                text: 'Likes',
-              ),
-              GButton(
-                icon: Icons.search,
-                iconColor: Color.fromARGB(255, 8, 156, 167),
-                text: 'Search',
-              ),
-              GButton(
-                icon: Icons.settings,
-                iconColor: Color.fromARGB(255, 8, 156, 167),
-                text: 'Setting',
-              ),
-            ],
-          ),
-        ),
-      ),
     );
   }
 }
